@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -94,40 +95,43 @@ export default function Footer() {
               label: "Location",
               value: "Blantyre, Malawi",
               href: null,
-              icon: "📍",
+              icon: MapPin,
             },
             {
               label: "Phone / WhatsApp",
               value: "+265 0889 789 998",
               href: "tel:+2650889789998",
-              icon: "📞",
+              icon: Phone,
             },
             {
               label: "Email",
               value: "lausdeoinvestments@gmail.com",
               href: "mailto:lausdeoinvestments@gmail.com",
-              icon: "✉️",
+              icon: Mail,
             },
-          ].map((item) => (
-            <div key={item.label} className="flex items-center gap-3">
-              <span className="text-xl">{item.icon}</span>
-              <div>
-                <p className="text-white/40 text-[10px] uppercase tracking-widest mb-0.5">
-                  {item.label}
-                </p>
-                {item.href ? (
-                  <a
-                    href={item.href}
-                    className="text-white/80 text-sm hover:text-[#D4A843] transition-colors break-all"
-                  >
-                    {item.value}
-                  </a>
-                ) : (
-                  <p className="text-white/80 text-sm">{item.value}</p>
-                )}
+          ].map((item) => {
+            const Icon = item.icon;
+            return (
+              <div key={item.label} className="flex items-center gap-3">
+                <Icon className="w-5 h-5 text-[#D4A843]" />
+                <div>
+                  <p className="text-white/40 text-[10px] uppercase tracking-widest mb-0.5">
+                    {item.label}
+                  </p>
+                  {item.href ? (
+                    <a
+                      href={item.href}
+                      className="text-white/80 text-sm hover:text-[#D4A843] transition-colors break-all"
+                    >
+                      {item.value}
+                    </a>
+                  ) : (
+                    <p className="text-white/80 text-sm">{item.value}</p>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Bottom Bar */}
