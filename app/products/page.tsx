@@ -198,6 +198,7 @@ export default function ProductsPage() {
               { name: "Okra", detail: "Fresh okra for households and local markets.", img: "/images/okra.jpg" },
               { name: "Pineapple", detail: "Sweet tropical pineapples for fresh consumption.", img: "/images/pineapple.png" },
               { name: "Coconuts", detail: "For fresh consumption and processing into oil and flour.", img: "/images/coconut.jpg" },
+              { name: "Eggplant", detail: "Fresh eggplant grown naturally for households and markets.", img: "/images/Eggplant.jpg" },
             ].map((item) => (
               <div key={item.name} className="group overflow-hidden rounded-sm"
                 style={{ border: "1px solid rgba(26,60,43,0.1)" }}>
@@ -247,12 +248,16 @@ export default function ProductsPage() {
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {[
+           {[
               { name: "Cashew Products", detail: "Whole cashew nuts, powder and flour.", img: "/images/cashew.jpg" },
               { name: "Coconut Products", detail: "Cold-pressed coconut oil and coconut flour.", img: "/images/coconut.jpg" },
+              { name: "Cooking Oil", detail: "Naturally processed cooking oil from our own crops.", img: "/images/cooking-oil.jpg" },
               { name: "Dairy Products", detail: "Fresh milk and processed milk products.", img: "/images/milk.jpg" },
+              { name: "Hibiscus Juice", detail: "Refreshing natural hibiscus juice for local and export markets.", img: "/images/hibiscusjuice.jpg" },
+              { name: "Natural Jams", detail: "Homemade jams made from fresh farm fruits.", img: "/images/jam.jpg" },
               { name: "Dried Hibiscus and Chilli", detail: "For tea, spices, and export markets.", img: "/images/hibiscus.jpg" },
-              { name: "Cooking Oil and Flour", detail: "Naturally processed from our own crops.", img: "/images/flour.jpg" },
+              { name: "Flour", detail: "Naturally processed flour from our own crops.", img: "/images/flour.jpg" },
+    
             ].map((item) => (
               <div key={item.name} className="group overflow-hidden rounded-sm"
                 style={{ border: "1px solid rgba(26,60,43,0.1)" }}>
