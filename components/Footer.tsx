@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
@@ -7,19 +8,33 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-16 pb-8">
         {/* Top Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+          
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div
-              className="text-white font-bold mb-1"
-              style={{ fontFamily: "var(--font-playfair)", fontSize: "1.4rem" }}
-            >
-              LausDeo Investments
-            </div>
-            <div
-              className="text-[#D4A843] font-semibold tracking-[0.18em] uppercase mb-4"
-              style={{ fontSize: "0.62rem" }}
-            >
-              From Our Farm to Your Table
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0"
+                style={{ border: "1.5px solid rgba(212,168,67,0.4)" }}>
+                <Image
+                  src="/images/logo.jpg"
+                  alt="LausDeo Investments Logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div>
+                <div
+                  className="text-white font-bold leading-none"
+                  style={{ fontFamily: "var(--font-playfair)", fontSize: "1.4rem" }}
+                >
+                  LausDeo Investments
+                </div>
+                <div
+                  className="text-[#D4A843] font-semibold tracking-[0.18em] uppercase mt-1"
+                  style={{ fontSize: "0.62rem" }}
+                >
+                  From Our Farm to Your Table
+                </div>
+              </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-5 max-w-sm">
               A Malawian agribusiness committed to sustainable farming, food

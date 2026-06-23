@@ -12,18 +12,20 @@ export default function Home() {
         style={{ background: "#0D2118" }}
       >
         <div className="absolute inset-0">
-          <Image
-            src="/images/maize.jpg"
-            alt="LausDeo farm fields"
-            fill
-            className="object-cover opacity-20"
-            priority
-          />
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover opacity-30"
+          >
+            <source src="/farm-video.mp4" type="video/mp4" />
+          </video>
           <div
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(135deg, rgba(13,33,24,0.97) 0%, rgba(26,60,43,0.85) 50%, rgba(13,33,24,0.92) 100%)",
+                "linear-gradient(135deg, rgba(13,33,24,0.92) 0%, rgba(26,60,43,0.75) 50%, rgba(13,33,24,0.88) 100%)",
             }}
           />
         </div>

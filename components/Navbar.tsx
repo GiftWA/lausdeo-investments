@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,23 +25,31 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-20">
 
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <span
-              className="text-white font-bold tracking-tight"
-              style={{
-                fontFamily: "var(--font-playfair)",
-                fontSize: "1.3rem",
-              }}
-            >
-              LausDeo
-            </span>
-            <span
-              className="text-[#D4A843] font-semibold tracking-widest uppercase"
-              style={{ fontSize: "0.6rem" }}
-            >
-              Investments
-            </span>
+         {/* Logo */}
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative w-10 h-10 rounded-full overflow-hidden"
+              style={{ border: "1.5px solid rgba(212,168,67,0.4)" }}>
+              <Image
+                src="/images/logo.jpg"
+                alt="LausDeo Investments Logo"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="flex flex-col">
+              <span
+                className="text-white font-bold tracking-tight leading-none"
+                style={{ fontFamily: "var(--font-playfair)", fontSize: "1.2rem" }}
+              >
+                LausDeo
+              </span>
+              <span
+                className="text-[#D4A843] font-semibold tracking-widest uppercase"
+                style={{ fontSize: "0.55rem" }}
+              >
+                Investments
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

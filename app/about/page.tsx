@@ -80,11 +80,11 @@ export default function AboutPage() {
                 }}
               >
                 From the soil of Malawi,
-                <br /> for the people of Malawi
+                <br /> for the people of Malawi.
               </h2>
               <p className="text-gray-600 text-sm leading-relaxed mb-5">
                 LausDeo Investments was built on a simple belief: that
-                Malawi&apos;s rich land can feed its people — and beyond. We
+                Malawi&apos;s rich land can feed its people and beyond. We
                 started by doing what we knew best: raising healthy animals
                 and growing good food.
               </p>
@@ -98,7 +98,7 @@ export default function AboutPage() {
               <p className="text-gray-600 text-sm leading-relaxed">
                 Today, we serve households, restaurants, retailers, and
                 partners across Malawi and beyond — all from our base in
-                Blantyre, the commercial heart of Southern Africa.
+                Blantyre, the commercial City of Malawi.
               </p>
             </div>
 
@@ -168,7 +168,7 @@ export default function AboutPage() {
                   fontSize: "1.5rem",
                 }}
               >
-                Nourishing Malawi, naturally
+                Nourishing Malawi, naturally.
               </h3>
               <p className="text-white/60 text-sm leading-relaxed">
                 To provide nutritious, locally-produced food and value-added
