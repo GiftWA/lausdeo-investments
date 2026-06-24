@@ -84,7 +84,7 @@ export default function ContactPage() {
               {
                 icon: <MapPin className="w-5 h-5 text-[#D4A843]" />,
                 label: "Location",
-                value: "Blantyre, Malawi",
+                value: "Mpemba, Blantyre, Malawi",
                 sub: "Southern Region",
                 href: null,
               },
@@ -92,8 +92,8 @@ export default function ContactPage() {
                 icon: <Phone className="w-5 h-5 text-[#D4A843]" />,
                 label: "Phone",
                 value: "+265 0889 789 998",
-                sub: "Mon to Sat, 8am to 6pm",
-                href: "tel:+2650889789998",
+                sub: "Sun — Fri, from 8:00am to just before sunset.",
+                href: "tel:+265 889789998",
               },
               {
                 icon: <Mail className="w-5 h-5 text-[#D4A843]" />,
@@ -105,8 +105,8 @@ export default function ContactPage() {
               {
                 icon: <Clock className="w-5 h-5 text-[#D4A843]" />,
                 label: "Working Hours",
-                value: "Mon — Sat",
-                sub: "8:00 AM to 6:00 PM",
+                value: "Sun — Fri",
+                sub: "From 8:00am to just before sunset.",
                 href: null,
               },
             ].map((item) => (
@@ -168,14 +168,14 @@ export default function ContactPage() {
                 </h2>
                 <p className="text-gray-500 text-sm leading-relaxed">
                   We work with retailers, restaurants, wholesalers, and
-                  households across Malawi. Tell us what you need — we will
+                  households across Malawi. Tell us what you need, we will
                   get back to you promptly.
                 </p>
               </div>
 
               {/* WhatsApp Button */}
               <a
-                href="https://wa.me/2650889789998"
+                href="https://wa.me/265 889789998"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-5 rounded-sm transition-all hover:opacity-90"
@@ -185,7 +185,7 @@ export default function ContactPage() {
                 <div>
                   <p className="text-white font-bold text-sm">Chat on WhatsApp</p>
                   <p className="text-white/80 text-xs mt-0.5">
-                    Quick responses during business hours
+                    Quick responses during business hours.
                   </p>
                 </div>
               </a>
@@ -200,7 +200,7 @@ export default function ContactPage() {
                 <div>
                   <p className="text-white font-bold text-sm">Call Us Directly</p>
                   <p className="text-white/80 text-xs mt-0.5">
-                    +265 0889 789 998
+                    +265 889 789 998
                   </p>
                 </div>
               </a>
@@ -425,16 +425,16 @@ export default function ContactPage() {
                 className="font-bold mb-3"
                 style={{ fontFamily: "var(--font-playfair)", fontSize: "1.6rem", color: "#2C1810" }}
               >
-                Based in Blantyre
-              </h3>
-              <p className="text-gray-500 text-sm leading-relaxed mb-6">
-                LausDeo Investments operates from Blantyre, the commercial
-                capital of Southern Malawi — well-positioned to serve
+               Based in Mpemba, Blantyre.
+            </h3>
+            <p className="text-gray-500 text-sm leading-relaxed mb-6">
+                LausDeo Investments operates from Mpemba, Blantyre — the
+                commercial city of Southern Malawi, well-positioned to serve
                 customers across the country and into the region.
               </p>
               <div className="space-y-1">
                 <p className="font-semibold text-sm" style={{ color: "#2C1810" }}>
-                  Blantyre, Malawi
+                  Mpemba, Blantyre, Malawi
                 </p>
                 <p className="text-gray-400 text-sm">Southern Region</p>
               </div>
@@ -445,8 +445,7 @@ export default function ContactPage() {
             >
               <iframe
                 title="LausDeo Investments Location"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=34.9500%2C-15.8200%2C35.0200%2C-15.7600&layer=mapnik&marker=-15.7866%2C34.9993"
-                className="w-full h-full border-0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=34.9600%2C-15.8800%2C35.0400%2C-15.8200&layer=mapnik&marker=-15.8467%2C34.9993"                className="w-full h-full border-0"
                 loading="lazy"
               />
             </div>
@@ -473,7 +472,7 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://wa.me/2650889789998"
+              href="https://wa.me/265 889789998"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-3.5 text-sm font-bold tracking-widest uppercase rounded-sm text-white transition-opacity hover:opacity-90"

@@ -97,8 +97,8 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Today, we serve households, restaurants, retailers, and
-                partners across Malawi and beyond — all from our base in
-                Blantyre, the commercial City of Malawi.
+                partners across Malawi and beyond all from our base in
+                Mpemba, Blantyre, the commercial city of Malawi.
               </p>
             </div>
 

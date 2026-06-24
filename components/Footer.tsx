@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-16 pb-8">
         {/* Top Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          
+
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-5 max-w-sm">
               A Malawian agribusiness committed to sustainable farming, food
-              security, and value addition — from Blantyre to beyond.
+              security, and value addition — from Mpemba, Blantyre to beyond.
             </p>
             <p
               className="italic text-[#B8892A] text-sm"
@@ -99,7 +99,7 @@ export default function Footer() {
 
         {/* Contact Strip */}
         <div
-          className="rounded-sm p-6 mb-10 grid grid-cols-1 sm:grid-cols-3 gap-4"
+          className="rounded-sm p-6 mb-10 grid grid-cols-1 sm:grid-cols-3 gap-6"
           style={{
             background: "rgba(255,255,255,0.04)",
             border: "1px solid rgba(212,168,67,0.12)",
@@ -108,7 +108,7 @@ export default function Footer() {
           {[
             {
               label: "Location",
-              value: "Blantyre, Malawi",
+              value: "Mpemba, Blantyre, Malawi",
               href: null,
               icon: MapPin,
             },
@@ -128,7 +128,12 @@ export default function Footer() {
             const Icon = item.icon;
             return (
               <div key={item.label} className="flex items-center gap-3">
-                <Icon className="w-5 h-5 text-[#D4A843]" />
+                <div
+                  className="w-9 h-9 rounded-full flex items-center justify-center shrink-0"
+                  style={{ background: "rgba(212,168,67,0.15)" }}
+                >
+                  <Icon className="w-4 h-4 text-[#D4A843]" />
+                </div>
                 <div>
                   <p className="text-white/40 text-[10px] uppercase tracking-widest mb-0.5">
                     {item.label}

@@ -140,6 +140,7 @@ export default function ProductsPage() {
             {[
               { name: "Dairy Cows", detail: "Fresh, wholesome milk for households and downstream processing.", img: "/images/dairy-cows.jpg" },
               { name: "Sheep and Goats", detail: "Adapted to local conditions, ideal for meat and income generation.", img: "/images/goats.jpg" },
+              { name: "Fish Farming", detail: "Fresh tilapia and other fish raised in our own dams in Mpemba.", img: "/images/dams.jpg" },
             ].map((item) => (
               <div key={item.name} className="group overflow-hidden rounded-sm"
                 style={{ border: "1px solid rgba(26,60,43,0.1)" }}>

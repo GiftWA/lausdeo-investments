@@ -38,7 +38,7 @@ export default function Home() {
                 className="text-[#D4A843] font-semibold tracking-[0.22em] uppercase"
                 style={{ fontSize: "0.7rem" }}
               >
-                Blantyre, Malawi · Agribusiness
+                Mpemba, Blantyre · Agribusiness
               </span>
             </div>
 
@@ -155,7 +155,7 @@ export default function Home() {
                   Est. in Malawi
                 </p>
                 <p className="text-white text-sm font-medium mt-0.5">
-                  Blantyre, Southern Region
+                  Mpemba, Blantyre.
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
               </h2>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
                 LausDeo Investments is a Malawian agribusiness founded on
-                the principle of stewardship — producing wholesome food
+                the principle of stewardship, producing wholesome food
                 while creating lasting value for our community.
               </p>
               <p className="text-gray-600 text-sm leading-relaxed mb-8">
