@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-5 max-w-sm">
               A Malawian agribusiness committed to sustainable farming, food
-              security, and value addition — from Mpemba, Blantyre to beyond.
+              security, and value addition- from Mpemba, Blantyre to beyond.
             </p>
             <p
               className="italic text-[#B8892A] text-sm"
@@ -108,7 +108,7 @@ export default function Footer() {
           {[
             {
               label: "Location",
-              value: "Mpemba, Blantyre, Malawi",
+              value: "Mpemba, Blantyre, Malawi.",
               href: null,
               icon: MapPin,
             },

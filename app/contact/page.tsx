@@ -429,7 +429,7 @@ export default function ContactPage() {
             </h3>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
                 LausDeo Investments operates from Mpemba, Blantyre — the
-                commercial city of Southern Malawi, well-positioned to serve
+                commercial city of Malawi, well-positioned to serve
                 customers across the country and into the region.
               </p>
               <div className="space-y-1">
